@@ -30,7 +30,8 @@ public class Guitar {
         System.out.println("Guitar Play " + " Wide open" + " Hey You" + " Late Night" + " Magic");
     }
 
-    public int Unsettle() {
-        return 0;
+    public void Unsettle() {
+        //tensions[0] = int[0];
+        System.out.println(tensions[0]);
     }
 }
