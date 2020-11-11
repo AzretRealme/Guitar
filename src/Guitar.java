@@ -21,17 +21,29 @@ public class Guitar {
         return this.stringCount;
     }
 
-    public void tune(int tensions) {
-        System.out.println(tensions);
-        //this.stringCount -= settings / 1;
+    public int[] getTensions() {
+        return tensions;
+    }
+
+    public void tune(int[] tensions) {
+
+        System.out.println(tensions[0]+5);
     }
 
     public void Play() {
-        System.out.println("Guitar Play " + " Wide open" + " Hey You" + " Late Night" + " Magic");
-    }
+        System.out.println(" Magic ");
+        System.out.println(" Wide open");  //распечатываем 4 строки
+        System.out.println(" Hey You");
+        System.out.println(" Late Night");
 
-    public void Unsettle() {
-        //tensions[0] = int[0];
-        System.out.println(tensions[0]);
+        Unsettle(); // вызвал приватный метод Unsettle
     }
+        private void Unsettle () {
+
+            System.out.println(Math.random() * tensions[5]);
+            //меняем значения полей массива tensions на случайное значение 
+
+        }
+
+
 }
