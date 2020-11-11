@@ -4,14 +4,16 @@ public class Main {
         Guitar Drake = new Guitar();
         Drake.setColor("black");
         Drake.setStringCount(5);
-        
-        Drake.tune(5);
-        Drake.Play();
-        
+
+
+        Drake.tune(new int[5]); //  выставляет все значения массива tensions равным 5
+        Drake.Play();  // также реализовывем приватный метод Unsettle
+
+
         System.out.println(Drake.getColor());
         System.out.println(Drake.getStringCount());
-        
-        Drake.Unsettle();
+
+
 
 
     }
