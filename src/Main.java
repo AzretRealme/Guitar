@@ -6,11 +6,12 @@ public class Main {
         Drake.setStringCount(5);
 
 
-        Drake.tune(new int[5]); //  выставляет все значения массива tensions равным 5
+        Drake.tune(new int[6]); //  выставляет все значения массива tensions равным 5
         Drake.Play();  // также реализовывем приватный метод Unsettle
 
-
+        System.out.println(" Цвет Гитары");
         System.out.println(Drake.getColor());
+        System.out.println(" Количество Струн");
         System.out.println(Drake.getStringCount());
 
 
