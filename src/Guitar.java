@@ -1,8 +1,7 @@
 public class Guitar {
     private String color;
     private int stringCount = 6;
-    //private int[] tensions = new int[6];
-    //private int settings;
+    
     int[] tensions = {5, 8, 10, 1, 6, 4};
     
     public Guitar(){
@@ -50,7 +49,7 @@ public class Guitar {
         System.out.println(" РАСПЕЧАТЫВАЕМ ВСЕ ПЕСНИ -------------");
         String[] songs = new String[] 
         {" Magic" + " Wide Open" 
-            + " Hey You" + "Hey You" + 
+            + " Hey You"  + 
             " Late Night"};
         
         for(int i = 0; i < songs.length; i++) {
