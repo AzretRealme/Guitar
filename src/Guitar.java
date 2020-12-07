@@ -35,10 +35,10 @@ public class Guitar {
 
         System.out.println(" Далее выставляем все значения массива tensions равным 5");
         tensions = new int[]{5, 5, 5, 5, 5, 5};
-
+        /*
         for(int i =0; i <6; i++){
             System.out.println(tensions[i]);
         }
 
-
+         */
     }
