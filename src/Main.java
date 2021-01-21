@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args){
         Guitar Drake = new Guitar();
         Drake.setColor("black");
-        Drake.setStringCount(5);
+        Drake.setStringCount(6);
 
 
         Drake.tune(new int[6]); //  выставляет все значения массива tensions равным 5
