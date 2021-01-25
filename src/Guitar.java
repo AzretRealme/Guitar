@@ -43,7 +43,7 @@ public class Guitar {
 
     }
 
-    public void Play() {
+    public void play() {
         System.out.println(" РАСПЕЧАТЫВАЕМ ВСЕ ПЕСНИ ---------------");
         String[] songs = new String[]
                 {" Magic" + " Wide Open"
@@ -53,9 +53,9 @@ public class Guitar {
             System.out.println(songs[i]);
         }
 
-        Unsettle(); // вызвал приватный метод Unsettle
+        unsettle(); // вызвал приватный метод Unsettle
     }
-        private void Unsettle () {
+        private void unsettle () {
             System.out.println(" Далее меняем значения полей массива tensions на случайное значение в районе 0-3");
 
             for(int i = 0; i < tensions.length; i++){
